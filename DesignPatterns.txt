@@ -1,0 +1,15 @@
+- PROGRAME PARA A INTERFACE E NAO PARA A IMPLEMENTAÇÕES
+
+Design patterns são soluções para problemas comuns que surgem 
+durante o desenvolvimento de software. Embora muitos design 
+patterns sejam baseados em conceitos de Programação Orientada
+a Objetos (POO), é possível aplicá-los em outros paradigmas 
+de programação, como Programação Funcional, 
+Programação Orientada a Eventos e Programação Estruturada.
+
+Em resumo, alguns design patterns podem ser aplicados sem POO, 
+mas outros dependem fortemente da POO e podem ser difíceis ou 
+impossíveis de implementar em outras abordagens de programação.
+
+
+

@@ -1,0 +1,10 @@
+quando  uma ou mais classes precisa usar o methodo de outras classes sem tem que instanciar ela novamente
+injeção de dependencia e quando passamos a class como dependencia na inicialização da instancia para consumida dentro da classe ijetada a propiedade recebida
+ou usar uma interface
+
+Injeção de Dependência (ou Dependency Injection, em inglês) é um padrão de projeto de software que visa tornar o código mais modular, flexível e fácil de testar.
+Na prática, a Injeção de Dependência consiste em passar as dependências necessárias para um objeto em vez de criá-las dentro do objeto. Por exemplo, em vez de uma 
+classe criar uma instância de outra classe diretamente, essa instância é passada para a primeira classe como parâmetro. Dessa forma, a primeira classe não precisa 
+saber como a segunda classe é criada e pode funcionar com qualquer implementação dessa classe, tornando o código mais genérico e menos acoplado.
+A Injeção de Dependência pode ser feita de diversas maneiras, como por meio de construtores, métodos ou propriedades. Além disso, existem diversos frameworks que 
+facilitam a implementação desse padrão em projetos de software, como o Spring Framework para Java e o .NET Core para C#.

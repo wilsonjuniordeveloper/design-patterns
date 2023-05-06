@@ -1,0 +1,18 @@
+O padrão de design Singleton: é um padrão criacional que garante que uma classe tenha apenas 
+uma instância e fornece um ponto de acesso global a essa instância. 
+Esse padrão é comumente usado em situações em que um único objeto precisa coordenar ações 
+em todo o sistema, como uma conexão de banco de dados ou um serviço de registro.
+
+A ideia básica do padrão Singleton é tornar o construtor de uma classe privado, 
+para que ele não possa ser instanciado diretamente pelo código do cliente.
+Em vez disso, um método estático é fornecido que retorna a única instância da classe, criando-a, se necessário.
+
+Padrão criacional: é um padrão de projeto de software que lida com mecanismos de criação de objetos, 
+tentando criar objetos de uma maneira adequada às necessidades específicas do projeto. 
+Os padrões criacionais ajudam a criar objetos de forma mais flexível, independente e reutilizável em um sistema.
+
+Esses padrões abstraem o processo de criação de objetos e permitem que um sistema use diferentes abordagens 
+para criar objetos, tornando o código mais flexível e menos acoplado a uma única implementação.
+Alguns exemplos de padrões criacionais incluem o Factory Method, Abstract Factory, Singleton, 
+Builder e Prototype. Cada padrão aborda uma necessidade diferente relacionada à criação de 
+objetos em um sistema e pode ser usado em diferentes situações dependendo dos requisitos do projeto.

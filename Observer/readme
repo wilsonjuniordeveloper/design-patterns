@@ -1,0 +1,39 @@
+O padrão Observer é um padrão de projeto comportamental que permite que um objeto, chamado de "sujeito", 
+mantenha uma lista de seus observadores, chamados de "assinantes", 
+e notifique-os automaticamente de quaisquer mudanças em seu estado interno. 
+
+O padrão Observer é útil em situações em que muitos objetos precisam ser notificados sobre mudanças 
+em um objeto principal, 
+mas sem que o objeto principal precise conhecer a identidade de seus observadores.
+
+O padrão Observer é composto por dois principais componentes: o sujeito e o observador.
+O sujeito é o objeto que está sendo observado e mantém uma lista de seus observadores. 
+O observador é um objeto que se registra no sujeito para ser notificado de quaisquer mudanças em
+seu estado interno.
+
+Quando o sujeito sofre uma mudança de estado, ele notifica automaticamente todos os seus observadores registrados, 
+chamando um método específico em cada um deles. Dessa forma, 
+cada observador pode atualizar seu próprio estado interno com base na nova informação recebida.
+
+O padrão Observer é útil em muitas situações, como em sistemas de GUI, 
+sistemas de controle de automação, jogos e muito mais. 
+Ele permite que os objetos interajam de forma flexível e desacoplada, 
+sem precisar conhecer a identidade de seus observadores e sem precisar saber como notificá-los.
+
+Model-View-Controller (MVC) Frameworks: O padrão Observer é um dos pilares do MVC,
+que é um dos modelos mais utilizados na construção de aplicações web. Neste modelo,
+o objeto Model notifica as Views registradas como observadores sobre as mudanças de estado.
+
+Event-Driven Programming: O padrão Observer é amplamente utilizado em programação orientada 
+a eventos para notificar objetos sobre eventos que ocorrem em outros objetos. 
+Um exemplo disso é o JavaScript, que utiliza o padrão Observer para manipular eventos do DOM.
+
+GUI Toolkits: GUI Toolkits como o Windows Forms, GTK+, Qt e Swing implementam o padrão Observer 
+para notificar os elementos da interface gráfica de usuário (UI) sobre as mudanças de estado em
+outros objetos da aplicação.
+
+Bibliotecas JavaScript: Bibliotecas como o Angular e React utilizam o padrão Observer para atualizar a
+UI sempre que o estado do modelo muda.
+
+Java Message Service (JMS): O JMS é uma API Java que implementa o padrão Observer 
+para notificar os clientes sobre as mudanças de estado em um servidor.

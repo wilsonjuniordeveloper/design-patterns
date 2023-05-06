@@ -1,0 +1,28 @@
+Existem vários sistemas e bibliotecas famosos que utilizam o design pattern Proxy em sua arquitetura. 
+Aqui estão alguns exemplos:
+
+Java Remote Method Invocation (RMI) - O RMI é um recurso da linguagem Java que permite que um objeto em uma JVM (Java Virtual Machine) invoque métodos em um objeto remoto em outra JVM, por meio de um proxy.
+
+Spring AOP - O Spring Framework é uma das bibliotecas mais populares do mundo Java. Ele inclui um módulo de programação orientada a aspectos (AOP) que usa o padrão de Proxy para interceptar e modificar o comportamento de métodos em tempo de execução.
+
+Hibernate - O Hibernate é um framework de mapeamento objeto-relacional para Java. Ele usa um proxy para interceptar e gerenciar o acesso a objetos persistentes em um banco de dados relacional.
+
+jQuery - O jQuery é uma biblioteca JavaScript muito popular que simplifica o processo de manipulação de documentos HTML e a interação com o servidor. Ele usa o padrão de Proxy para permitir que os desenvolvedores adicionem comportamento personalizado aos elementos HTML.
+
+.NET Remoting - O .NET Remoting é um recurso do .NET Framework que permite que os objetos em uma aplicação se comuniquem com os objetos em outra aplicação por meio de um proxy.
+
+Esses são apenas alguns exemplos de sistemas e bibliotecas que usam o padrão de Proxy em sua arquitetura. Há muitos outros sistemas e bibliotecas que também o utilizam para fornecer recursos avançados de programação.
+
+
+
+O Proxy é um padrão de design que pertence à categoria de padrões estruturais. Ele permite que um objeto atue como um substituto para outro objeto e controle o acesso a ele. Em outras palavras, o Proxy age como uma fachada para o objeto real e gerencia o acesso a ele.
+
+O objetivo do Proxy é fornecer um objeto intermediário que possa ser usado para acessar outro objeto, mas com controle adicional sobre o acesso e a funcionalidade. Isso é útil em vários cenários, incluindo:
+
+Controle de acesso: o Proxy pode verificar se o cliente tem permissão para acessar o objeto real.
+Sobrecarga: o Proxy pode adicionar funcionalidades extras ao objeto real, como caching ou logging.
+Redução de custos: o Proxy pode adiar a criação do objeto real até que seja realmente necessário, economizando recursos do sistema.
+Simplificação da interface: o Proxy pode fornecer uma interface mais simples para o objeto real, tornando-o mais fácil de usar.
+O padrão de Proxy é composto por três componentes principais: a interface do objeto real, o Proxy e o objeto real. O Proxy implementa a mesma interface do objeto real, para que o cliente não precise saber se está usando o objeto real ou o Proxy. Quando o cliente faz uma solicitação ao objeto, o Proxy pode lidar com a solicitação diretamente ou passá-la para o objeto real.
+
+Em resumo, o padrão de Proxy é útil quando há a necessidade de controlar o acesso a um objeto ou adicionar funcionalidades extras a ele, sem modificar sua interface pública.
